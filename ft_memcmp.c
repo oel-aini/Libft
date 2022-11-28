@@ -6,7 +6,7 @@
 /*   By: oel-aini <oel-aini@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/31 21:15:00 by oel-aini          #+#    #+#             */
-/*   Updated: 2022/11/28 00:11:35 by oel-aini         ###   ########.fr       */
+/*   Updated: 2022/11/28 01:09:57 by oel-aini         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,5 +29,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-
-

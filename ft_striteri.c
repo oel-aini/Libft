@@ -6,7 +6,7 @@
 /*   By: oel-aini <oel-aini@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/28 00:25:37 by oel-aini          #+#    #+#             */
-/*   Updated: 2022/11/28 00:25:41 by oel-aini         ###   ########.fr       */
+/*   Updated: 2022/11/28 01:10:38 by oel-aini         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,4 +23,3 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 		i++;
 	}
 }
-

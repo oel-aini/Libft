@@ -6,7 +6,7 @@
 /*   By: oel-aini <oel-aini@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/29 13:29:12 by oel-aini          #+#    #+#             */
-/*   Updated: 2022/11/28 00:44:11 by oel-aini         ###   ########.fr       */
+/*   Updated: 2022/11/28 01:11:49 by oel-aini         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,8 @@ char	*ft_strnstr(const char *bigg, const char *littleee, size_t len)
 	while (bigg[i] && i < len)
 	{
 		j = 0;
-		while (bigg[i + j] && littleee[j] && bigg[i + j] == littleee[j] && i + j < len)
+		while (bigg[i + j] && littleee[j]
+			&& bigg[i + j] == littleee[j] && i + j < len)
 			j++;
 		if (!littleee[j])
 			return ((char *)(bigg + i));

@@ -6,7 +6,7 @@
 /*   By: oel-aini <oel-aini@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/20 19:33:41 by oel-aini          #+#    #+#             */
-/*   Updated: 2022/11/28 00:31:56 by oel-aini         ###   ########.fr       */
+/*   Updated: 2022/11/28 01:10:59 by oel-aini         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,6 @@ size_t	ft_strlcat(char *dst, const char *src, size_t destsize)
 
 	dlen = ft_strlen(dst);
 	slen = ft_strlen(src);
-
 	i = 0;
 	if (destsize == 0)
 		return (slen);

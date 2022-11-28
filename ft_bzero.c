@@ -6,15 +6,15 @@
 /*   By: oel-aini <oel-aini@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/17 19:18:11 by oel-aini          #+#    #+#             */
-/*   Updated: 2022/11/27 23:56:47 by oel-aini         ###   ########.fr       */
+/*   Updated: 2022/11/28 01:09:34 by oel-aini         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void ft_bzero(void *s, size_t n)
+void	ft_bzero(void *s, size_t n)
 {
-	char *p;
+	char	*p;
 
 	p = s;
 	while (n)
